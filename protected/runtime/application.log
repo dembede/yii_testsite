@@ -1,0 +1,11 @@
+2014/01/13 18:20:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Users/sammydembede/Sites/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/sammydembede/Sites/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Users/sammydembede/Sites/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Users/sammydembede/Sites/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('page')
+#3 /Users/sammydembede/Sites/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/sammydembede/Sites/testsite/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/page
+HTTP_REFERER=http://testsite.local/index.php/page/about
+---
